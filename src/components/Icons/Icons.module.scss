@@ -1,0 +1,26 @@
+.create-playlist {
+  // align-items: center;
+  // background: #fff;
+  // border-radius: 2px;
+  // color: #000;
+  // display: flex;
+  // height: 24px;
+  // width: 24px;
+  // justify-content: center;
+  // position: absolute;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  align-items: center;
+  background: #fff;
+  border-radius: 2px;
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  height: 24px;
+  width: 24px;
+}

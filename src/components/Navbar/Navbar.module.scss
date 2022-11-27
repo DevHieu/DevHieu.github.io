@@ -1,0 +1,78 @@
+.wrapper {
+  grid-area: nav-bar;
+  background-color: var(--black);
+  width: 241px;
+  padding-top: 24px;
+  z-index: 3;
+  .container {
+    height: fit-content;
+    padding: 0 8px;
+    .logo {
+      margin-bottom: 24px;
+      .logo-container {
+        padding: 0 16px;
+      }
+    }
+    .nav-menu {
+      margin-bottom: 24px;
+    }
+    .nav-playlist {
+      .create-playlist {
+        display: flex;
+        color: var(--white);
+        gap: 16px;
+        align-items: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        cursor: not-allowed;
+        transition: all 0.5s ease;
+        opacity: 0.7;
+        &:hover {
+          opacity: 1;
+        }
+        .create-icon {
+          align-items: center;
+          background: #fff;
+          border-radius: 2px;
+          color: #000;
+          display: flex;
+          height: 24px;
+          width: 24px;
+          justify-content: center;
+        }
+        .playlist-title {
+          font-size: 0.875rem;
+          color: currentColor;
+        }
+      }
+      .liked-songs {
+        display: flex;
+        color: var(--white);
+        gap: 16px;
+        align-items: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        cursor: not-allowed;
+        transition: all 0.5s ease;
+        opacity: 0.7;
+        &:hover {
+          opacity: 1;
+        }
+        .liked-icon {
+          align-items: center;
+          background: linear-gradient(135deg, #450af5, #c4efd9);
+          border-radius: 2px;
+          color: #000;
+          display: flex;
+          height: 24px;
+          width: 24px;
+          justify-content: center;
+        }
+        .playlist-title {
+          font-size: 0.875rem;
+          color: currentColor;
+        }
+      }
+    }
+  }
+}

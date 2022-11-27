@@ -1,0 +1,35 @@
+.default {
+  background: var(--white);
+  border-radius: 500px;
+  text-align: center;
+  padding: 15px 30px;
+  color: var(--black);
+  .children {
+    color: currentColor;
+    font-weight: 700;
+  }
+  &:hover {
+    transform: scale(1.04);
+  }
+}
+.green {
+  background: var(--base);
+  color: var(--black);
+  &:hover {
+    transform: scale(1.04);
+  }
+}
+.outline {
+  border: 1px solid var(--gray);
+  color: var(--white);
+  &:hover {
+    transform: scale(1.04);
+  }
+}
+.none {
+  background: transparent;
+  color: var(--white);
+  &:hover {
+    transform: scale(1.04);
+  }
+}
