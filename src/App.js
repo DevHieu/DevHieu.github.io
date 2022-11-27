@@ -1,5 +1,8 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import TopBar from "./components/TopBar/TopBar";
+import { publicRouters } from "./routers/router";
+import "./App.css";
 
 function App() {
   return (
