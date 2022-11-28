@@ -2,7 +2,7 @@
   "name": "spotify-clone",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://devhieu.github.io"
+  "homepage": "https://devhieu.github.io",
   "dependencies": {
     "-": "^0.0.1",
     "@mui/icons-material": "^5.8.4",
